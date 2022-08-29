@@ -1,23 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <title>Javascript для Начинающих</title>
-  <link rel="stylesheet" href="style.css">
-
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>Карточки | Проект 1</title>
 </head>
 <body>
-  <div class="wrapper">
-    <h2>Javascript для Начинающих</h2>
+<div class="container">
+  <div
+      class="slide"
+      style="background-image: url('https://images.unsplash.com/photo-1561128916-87c0364714de?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2022&q=80');"
+  >
+    <h3>BMW</h3>
   </div>
+  <div
+      class="slide"
+      style="
+          background-image: url('https://images.unsplash.com/photo-1611873189125-324514ebd94e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80');
+        "
+  >
+    <h3>Suzuki</h3>
+  </div>
+  <div
+      class="slide"
+      style="
+          background-image: url('https://images.unsplash.com/photo-1580310614729-ccd69652491d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80');
+        "
+  >
+    <h3>Kawasaki</h3>
+  </div>
+  <div
+      class="slide active"
+      style="
+          background-image: url('https://images.unsplash.com/photo-1471466054146-e71bcc0d2bb2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80');
+        "
+  >
+    <h3>Yamaha</h3>
+  </div>
+  <div
+      class="slide"
+      style="
+          background-image: url('https://images.unsplash.com/photo-1632077532902-c1de2815fc3b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80');
+        "
+  >
+    <h3>Ducati</h3>
+  </div>
+</div>
+<script src="app.js">
 
-  <style>
-    .circle {
-      border-radius: 50%;
-      transform: rotate(200deg) scale(1.5);
-    }
-  </style>
-  <script src='./myJs.js'></script>
+</script>
 </body>
 </html>
